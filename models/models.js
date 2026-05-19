@@ -7,6 +7,7 @@ const userSChema=new mongoose.Schema({
 
 
 
+
 module.exports=mongoose.model("users",userSChema)
 
 

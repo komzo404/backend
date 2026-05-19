@@ -27,4 +27,6 @@ const postData=async(req,res)=>{
 }
 
 
+
+
  module.exports={deleteDAta,putData,getUser,postData,getUserId}
