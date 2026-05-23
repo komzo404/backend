@@ -3,6 +3,7 @@ const userSChema=new mongoose.Schema({
     name:{typeof:String},
     email:{typeof:String},
     age:{typeof:Number},
+    opit:{typeof:Number}
 })
 
 

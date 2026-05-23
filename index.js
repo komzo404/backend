@@ -6,12 +6,27 @@ dotenv.config()
 const app=express()
 const dbConnect=require('./services/dbconnect.js')
 app.use(express.json())
+// const sayHello=async()=>{
+//     console.log(111);
+    
+// }
+// app.use(sayHello)
 app.use('',route)
 app.use('/auth',authroutes)
 dbConnect()
 app.listen(3001,()=>{
     console.log('Backend 3001-portda ishladi');
 })
+
+
+
+
+
+
+
+
+
+
 
 
 
