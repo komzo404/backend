@@ -14,8 +14,8 @@ app.use(express.json())
 app.use('',route)
 app.use('/auth',authroutes)
 dbConnect()
-app.listen(3001,()=>{
-    console.log('Backend 3001-portda ishladi');
+app.listen(6666,()=>{
+    console.log('Backend 6666-portda ishladi');
 })
 
 
